@@ -1,6 +1,6 @@
 # Task Management Dashboard with Sign-In (Single Account)
 
-This project is a React-based task management dashboard that allows a single user to create, filter, sort, and mark tasks. It includes a sign-in feature using a pre-configured account. It utilizes Redux for state management, Firebase for authentication, and Material-UI for a clean and responsive user interface.
+This project is a React-based task management dashboard that allows a single user to create, filter, sort, and mark tasks. It includes a sign-in feature using a pre-configured account. It utilizes Redux for state management, Material-UI for a clean and responsive user interface.
 
 ## Features
 
@@ -13,9 +13,23 @@ This project is a React-based task management dashboard that allows a single use
 * **Delete Tasks:** Users can delete tasks.
 * **Responsive Design:** The dashboard is designed to be responsive and work well on various screen sizes.
 * **Redux State Management:** Global application state is managed using Redux.
-* **Firebase Authentication:** Handles user authentication using a single pre-configured account.
 * **Material-UI:** Provides a clean and consistent user interface.
 * **React-Toastify:** Provides user friendly toast messages for task updates.
+## Example Usage with Images:
+
+And here is a screenshot of the login screen:
+
+![Login Screen](src/assets/Login.png)
+
+Here is a screenshot of the dashboard:
+
+![Dashboard Screenshot](src/assets/dash.png)
+
+Here is a screenshot of the filter:
+
+![Dashboard Screenshot](src/assets/Filter.png)
+
+
 
 ## Technologies Used
 
@@ -30,13 +44,13 @@ This project is a React-based task management dashboard that allows a single use
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/ravi0629prakash/Task-manager.git
     ```
 
 2.  **Navigate to the project directory:**
 
     ```bash
-    cd <project_directory>
+    cd Task-manager
     ```
 
 3.  **Install dependencies:**
@@ -44,11 +58,6 @@ This project is a React-based task management dashboard that allows a single use
     ```bash
     npm install
     ```
-
-
-5.  **Initialize Firebase in your application:**
-
-    * Import Firebase in your main application component (e.g., `App.js`).
 
 ## Usage
 
@@ -70,4 +79,3 @@ This project is a React-based task management dashboard that allows a single use
 
     Use the dashboard to add, filter, sort, mark, edit, and delete tasks.
 
-## Project Structure
